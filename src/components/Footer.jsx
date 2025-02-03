@@ -177,7 +177,7 @@ const Footer = () => {
 
       <div className="border-t border-gray-200 dark:border-gray-700 mt-16 pt-8 text-center">
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          © 2021 Bihar Fire Protection. All rights reserved.
+          © 2021 Bihar Fire Protection. All rights reserved || Developed by <a href="https://prateekisonline.vercel.app/"><b>Prateek⚡</b></a>
         </p>
       </div>
     </section>
