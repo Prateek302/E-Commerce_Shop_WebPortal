@@ -119,44 +119,56 @@ function Header() {
               >
                 Disclaimer
               </Link>
+              <Link
+                to="/login"
+                className="text-white text-sm font-semibold bg-[#25D366] px-4 py-2 rounded-full hover:bg-[#1DA851] transition duration-200"
+              >
+                WhatsApp
+              </Link>
             </div>
 
+            {/* Mobile Menu Links */}
+            {menuOpen && (
+              <div className=" lg:hidden absolute z-10 top-16 left-0 w-full bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 shadow-lg ">
+                <div className="flex flex-col space-y-4 px-6 py-4">
+                  <Link
+                    to="/"
+                    className="text-base font-medium text-black dark:text-white transition-all duration-200 hover:text-sky-600 dark:hover:text-sky-400"
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    to="/gallery"
+                    className="text-base font-medium text-black dark:text-white transition-all duration-200 hover:text-sky-600 dark:hover:text-sky-400"
+                  >
+                    Gallery
+                  </Link>
+                  <Link
+                    to="/contact-us"
+                    className="text-base font-medium text-black dark:text-white transition-all duration-200 hover:text-sky-600 dark:hover:text-sky-400"
+                  >
+                    Contact Us
+                  </Link>
+                  <Link
+                    to="/about-us"
+                    className="text-base font-medium text-black dark:text-white transition-all duration-200 hover:text-sky-600 dark:hover:text-sky-400"
+                  >
+                    About Us
+                  </Link>
+                  <Link
+                    to="/disclaimer"
+                    className="text-base font-medium text-black dark:text-white transition-all duration-200 hover:text-sky-600 dark:hover:text-sky-400"
+                  >
+                    Disclaimer
+                  </Link>
+                  <Link
+                    to="/login"
+                    className="text-white text-center font-semibold bg-[#25D366] px-4 py-2 rounded-full hover:bg-[#1DA851] transition duration-200"
+                  >
+                    WhatsApp
+                  </Link>
 
-          {/* Mobile Menu Links */}
-          {menuOpen && (
-            <div className=" lg:hidden absolute z-10 top-16 left-0 w-full bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 shadow-lg ">
-              <div className="flex flex-col space-y-4 px-6 py-4">
-                <Link
-                  to="/"
-                  className="text-base font-medium text-black dark:text-white transition-all duration-200 hover:text-sky-600 dark:hover:text-sky-400"
-                >
-                  Home
-                </Link>
-                <Link
-                  to="/gallery"
-                  className="text-base font-medium text-black dark:text-white transition-all duration-200 hover:text-sky-600 dark:hover:text-sky-400"
-                >
-                  Gallery
-                </Link>
-                <Link
-                  to="/contact-us"
-                  className="text-base font-medium text-black dark:text-white transition-all duration-200 hover:text-sky-600 dark:hover:text-sky-400"
-                >
-                  Contact Us
-                </Link>
-                <Link
-                  to="/about-us"
-                  className="text-base font-medium text-black dark:text-white transition-all duration-200 hover:text-sky-600 dark:hover:text-sky-400"
-                >
-                  About Us
-                </Link>
-                <Link
-                  to="/disclaimer"
-                  className="text-base font-medium text-black dark:text-white transition-all duration-200 hover:text-sky-600 dark:hover:text-sky-400"
-                >
-                  Disclaimer
-                </Link>
-                {/* <div className="flex items-center space-x-4">
+                  {/* <div className="flex items-center space-x-4">
                   <input
                     type="checkbox"
                     id="checkbox-mobile"
@@ -170,9 +182,9 @@ function Header() {
                     <span className="ball"></span>
                   </label>
                 </div> */}
+                </div>
               </div>
-            </div>
-          )}
+            )}
           </nav>
         </div>
       </header>
