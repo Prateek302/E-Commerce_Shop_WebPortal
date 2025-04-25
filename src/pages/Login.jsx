@@ -10,8 +10,8 @@ const Login = () => {
     e.preventDefault();
 
     // Replace with your desired email and password
-    const allowedEmail = "prateek@gmail.com";
-    const allowedPassword = "pass";
+    const allowedEmail = "biharfireprotection@yahoo.com";
+    const allowedPassword = "BiharFire@03";
 
     if (email === allowedEmail && password === allowedPassword) {
       localStorage.setItem("isAdmin", "true");
