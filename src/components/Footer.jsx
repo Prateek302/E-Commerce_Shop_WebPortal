@@ -164,7 +164,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/privacy-policy"
                   className="text-base text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-all duration-200"
                 >
                   Privacy Policy

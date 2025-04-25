@@ -10,6 +10,7 @@ import "./App.css";
 import WhatsAppSender from "./components/WhatsappSender";
 import Login from "./pages/Login";
 import PrivateRoute from "./components/PrivateRoute";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/disclaimer" element={<Disclaimer />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
             <Route path="/login" element={<Login />} />
             <Route
               path="/admin"
